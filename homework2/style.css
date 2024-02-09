@@ -1,0 +1,40 @@
+body {
+    /* background */
+    background-color: #ffe4f8;
+    background-image: url(heart2.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position:top center;
+    
+    /* text */
+    color: #514d4d;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+
+    border: 1px solid;
+    border-color: #514d4d;
+    border-radius: 10px;
+    border-width: 1.5px;
+
+    margin: 30px;
+    padding: 15px;
+
+    height: auto;
+    min-height: auto;
+    max-height: auto;
+
+    width: auto;
+    min-width: auto;
+    max-width: auto;
+}
+
+
+.question{
+    color: #377e94;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+}
