@@ -1,0 +1,118 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #33332a;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #b2b6a8;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 40%;
+  }
+
+  /* YOUR CSS GOES AFTER THIS */
+  .artwork {
+    position: relative;
+  }
+  
+  .artwork-cover{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: opacity 0.5s ease;
+  }
+  
+  .artwork-info{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    color: #989d8e;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    text-align: left;
+  }i
+
+  .artwork-cover-2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  .artwork-info-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    color: #ec9cf089;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+
+  #click-me {
+    cursor: pointer;
+    background-color: #ffffff88;
+    z-index: 500;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-top: 40%;
+  }
+
+  #click-me-2 {
+    cursor: pointer;
+    background-color: #f1a9f475;
+    z-index: 500;
+    position: absolute;
+    top: 0px;
+    left:60%;
+    transform: translateX(-50%);
+    margin-top: 0%;
+  }
