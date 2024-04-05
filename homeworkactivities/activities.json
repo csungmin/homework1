@@ -1,0 +1,48 @@
+{
+    "firstName": "Sungmin",
+    "lastName": "Chun",
+    "activities": [
+        {
+            "name": "Coachella Valley Music and Arts Festival 2024",
+            "dateStart": "4/12/24",
+            "dateEnd": "4/21/24",
+            "description": "Coachella is an annual music and arts festival held at the Empire Polo Club in Indio, California, in the Coachella Valley in the Colorado Desert.",
+            "wouldRepeat": "true"
+        },
+        {
+            "name": "Lollapalooza Chicago",
+            "dateStart": "8/1/24",
+            "dateEnd": "8/4/24",
+            "description": "Lollapalooza is an annual American four-day music festival held in Grant Park in Chicago.",
+            "wouldRepeat": "true"
+        },
+        {
+            "name": "Governors Ball Music Festival",
+            "dateStart": "6/7/24",
+            "dateEnd": "6/9/24",
+            "description": "Governors Ball Music Festival is a music festival held in Randall's Island, New York City.",
+            "wouldRepeat": "true"
+        },
+        {
+            "name": "Bonnaroo Music and Arts Festival",
+            "dateStart": "6/13/24",
+            "dateEnd": "3/16/24",
+            "description": "The Bonnaroo Music and Arts Festival is an American annual four-day music festival developed and founded by Superfly Presents and AC Entertainment.",
+            "wouldRepeat": "true"
+        },
+        {
+            "name": "Woodstock",
+            "dateStart": "8/15/69",
+            "dateEnd": "8/18/69",
+            "description": "Woodstock Music and Art Fair, commonly referred to as Woodstock, was a music festival held from August 15 to 18, 1969, on Max Yasgur's dairy farm in Bethel, New York, 40 miles southwest of the town of Woodstock.",
+            "wouldRepeat": "false"
+        },
+        {
+            "name": "Monterey International Pop Festival",
+            "dateStart": "6/16/67",
+            "dateEnd": "6/18/67",
+            "description": "The Monterey International Pop Festival was a three-day music festival held June 16 to 18, 1967, at the Monterey County Fairgrounds in Monterey, California.",
+            "wouldRepeat": "false"
+        }
+    ]
+}
