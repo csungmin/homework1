@@ -1,0 +1,73 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /* YOUR CSS GOES AFTER THIS */
+
+  :root {
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --link-color: #0000FF;
+    --heading-background-color: #333333;
+    --heading-text-color: #CCCCCC;
+    --border-color: #000000;
+  }
+
+  .dark-theme {
+    --background-color: #222222;
+    --text-color: #d4d4d4;
+    --link-color: #729eee;
+    --heading-background-color: #d4d4d4;
+    --heading-text-color: #000000;
+    --border-color: #d4d4d4;
+  }
+
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  a {
+    color: var(--link-color);
+  }
+
+  h3 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    padding: 2rem;
+  }
+
+#modeToggle {
+  margin-bottom: 2rem;
+}
+
+.instructions {
+  border-top: 1px solid var(--border-color);
+}
+
+.instructions ol {
+  font-weight: bold;
+}
